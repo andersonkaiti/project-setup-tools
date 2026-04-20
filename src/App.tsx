@@ -4,6 +4,22 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 
+interface IUser {
+  id: string
+  name: string
+  email: string
+}
+
+interface IUserService {
+  listAll(): Promise<IUser[]>
+}
+
+class UserService implements IUserService {
+  listAll(): Promise<IUser[]> {
+    throw new Error('Method not implemented.')
+  }
+}
+
 export function App() {
   const [count, setCount] = useState(0)
 
