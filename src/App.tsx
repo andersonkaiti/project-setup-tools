@@ -1,27 +1,21 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 
-interface IUser {
-  id: string
-  name: string
-  email: string
-}
-
-interface IUserService {
-  listAll(): Promise<IUser[]>
-}
-
-class UserService implements IUserService {
-  listAll(): Promise<IUser[]> {
-    throw new Error('Method not implemented.')
-  }
-}
-
 export function App() {
   const [count, setCount] = useState(0)
+
+  // if (count === 1000) {
+  //   return null
+  // }
+
+  const print = useCallback(() => {
+    console.log(count)
+  }, [count])
+
+  print()
 
   return (
     <div className="w-[1126px] max-w-full mx-auto text-center border-x border-border min-h-svh flex flex-col box-border">
