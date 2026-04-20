@@ -4,6 +4,9 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 
+// lint-staged -> executa o lint nos arquivos dentro do area area
+// husky (trigger) -> executa o lint-staged antes do commit
+
 export function App() {
   const [count, setCount] = useState(0)
 
