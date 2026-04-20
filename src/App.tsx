@@ -60,7 +60,7 @@ export function App() {
               <a
                 href="https://vite.dev/"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <img className="h-[18px]" src={viteLogo} alt="" />
                 Explore Vite
@@ -70,7 +70,7 @@ export function App() {
               <a
                 href="https://react.dev/"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <img className="w-[18px] h-[18px]" src={reactLogo} alt="" />
                 Learn more
@@ -93,7 +93,7 @@ export function App() {
               <a
                 href="https://github.com/vitejs/vite"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <svg
                   className="w-[18px] h-[18px] dark:invert dark:brightness-200"
@@ -109,7 +109,7 @@ export function App() {
               <a
                 href="https://chat.vite.dev/"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <svg
                   className="w-[18px] h-[18px] dark:invert dark:brightness-200"
@@ -125,7 +125,7 @@ export function App() {
               <a
                 href="https://x.com/vite_js"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <svg
                   className="w-[18px] h-[18px] dark:invert dark:brightness-200"
@@ -141,7 +141,7 @@ export function App() {
               <a
                 href="https://bsky.app/profile/vite.dev"
                 target="_blank"
-                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center"
+                className="text-text-h text-base rounded-md bg-social-bg flex px-3 py-1.5 items-center gap-2 no-underline transition-shadow duration-300 hover:shadow-custom max-lg:w-full max-lg:justify-center" rel="noreferrer"
               >
                 <svg
                   className="w-[18px] h-[18px] dark:invert dark:brightness-200"
