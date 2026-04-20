@@ -1,8 +1,9 @@
 import js from '@eslint/js'
 import tslintPlugin from '@typescript-eslint/eslint-plugin'
 import tslintParser from '@typescript-eslint/parser'
-import pluginReact from 'eslint-plugin-react'
 import { defineConfig } from 'eslint/config'
+import pluginReact from 'eslint-plugin-react'
+import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import globals from 'globals'
 
 export default defineConfig([
@@ -12,6 +13,7 @@ export default defineConfig([
     files: ['**/*.{js,mjs,cjs,jsx,ts,tsx}'],
     plugins: {
       '@typescript-eslint': tslintPlugin,
+      'simple-import-sort': simpleImportSort
     },
     languageOptions: {
       globals: globals.browser,
@@ -21,7 +23,9 @@ export default defineConfig([
       ...tslintPlugin.configs.recommended.rules,
       semi: ['error', 'never'],
       quotes: ['error', 'single'],
-      'react/react-in-jsx-scope': 'off'
+      'react/react-in-jsx-scope': 'off',
+      'simple-import-sort/imports': 'error',
+      'simple-import-sort/exports': 'error',
     }
   },
 ])
